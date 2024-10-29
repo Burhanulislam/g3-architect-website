@@ -109,6 +109,28 @@ main> section{
         font-weight: 500;
 }
 
+/* feature section styles */
+.feature{
+        gap: 140px;
+}
+#feature-sec-title{
+        font-size: 2.8rem;
+        border-left: 5px solid rgb(255, 144, 14);
+        padding-left: 20px;
+        font-weight: 700;
+}
+.feature-card .feature-card-title{
+        font-size: 1.25rem;
+        font-weight: 600;    
+        margin-top: 0px;
+        margin-bottom: 0px;   
+}
+.feature-card{
+        padding: 30px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        margin-bottom: 20px;
+}
 /* some fact related styles */
 .facts-container{
         display: grid;
